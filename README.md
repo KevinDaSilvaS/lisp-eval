@@ -9,5 +9,5 @@
 
 ## Installation
 
-- ### Clone the project and run `mix escript.build`
-- ### Run `./lisp_eval your_file_path` example: `./lisp_eval /root/lisp_eval/example`
+- ##### Clone the project and run `mix escript.build`
+- ##### Run `./lisp_eval your_file_path` example: `./lisp_eval /root/lisp_eval/example`
