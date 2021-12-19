@@ -1,21 +1,13 @@
 # LispEval
 
-**TODO: Add description**
+**Lisp like evaluation for arithmetic expressions**
+
+### Features
+  - Nesting expressions (* (/ 10 2) (+ 2 (- 5 3)))
+  - Currently supports only positive integers
+  - Interpreter for any file that contains a valid lisp like expression
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `lisp_eval` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:lisp_eval, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/lisp_eval](https://hexdocs.pm/lisp_eval).
-
+- ### Clone the project and run `mix escript.build`
+- ### Run `./lisp_eval your_file_path` example: `./lisp_eval /root/lisp_eval/example`
